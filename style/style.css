@@ -164,6 +164,7 @@ p {
   border-radius: 50%;
   background-color: #ffd258;
   /* margin-top: 100px; */
+  z-index: -2000;
 }
 
 img {
@@ -174,6 +175,7 @@ img {
   width: 170%;
   top: -90%;
   left: -20%;
+  z-index: -1000;
 }
 
 .loc {
