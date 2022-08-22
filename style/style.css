@@ -31,7 +31,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   gap: 5px;
-  padding: 40px 140px;
+  padding: 0px 140px 40px;
   background: conic-gradient(
     from 90deg at 70% 70%,
     #ffffff,
@@ -65,23 +65,32 @@ h1 {
   display: flex;
   align-items: center;
   gap: 15px;
-  position: absolute;
-  bottom: 0px;
+  /* position: absolute; */
+  /* bottom: 0px; */
+  margin-bottom: -30px;
 }
 
 .box1 {
-  max-height: 100vh;
+  /* min-height: 100vh; */
+  min-height: 640px;
   flex: 1;
   position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .box2 {
-  max-height: 100vh;
+  /* min-height: 100vh; */
+  min-height: 640px;
   flex: 1;
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+  /* gap: 50px; */
 }
 
 .search {
@@ -133,9 +142,10 @@ p {
   display: flex;
   align-items: center;
   gap: 35px;
-  position: absolute;
-  bottom: 10px;
-  right: 30px;
+  /* position: absolute; */
+  /* bottom: 10px;
+  right: 30px; */
+  margin-top: -100px;
 }
 
 .links p {
@@ -153,6 +163,7 @@ p {
   height: 250px;
   border-radius: 50%;
   background-color: #ffd258;
+  /* margin-top: 100px; */
 }
 
 img {
@@ -192,7 +203,7 @@ img {
 @media (max-width: 1070px) {
   .main {
     flex-direction: column;
-    gap: 200px;
+    /* gap: 200px; */
   }
 
   .social {
